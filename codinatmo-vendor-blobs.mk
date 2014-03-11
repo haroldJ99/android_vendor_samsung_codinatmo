@@ -94,10 +94,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/codinatmo/proprietary/usr/share/alsa/pcm/surround71.conf:codinatmo/usr/share/alsa/pcm/surround71.conf \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/LVVEFS_Rx_Configuration.txt:codinatmo/etc/LVVEFS_tuning_parameters/LVVEFS_Rx_Configuration.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/LVVEFS_Tx_Configuration.txt:codinatmo/etc/LVVEFS_tuning_parameters/LVVEFS_Tx_Configuration.txt \
+    vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECOFF_IMS.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECOFF_IMS.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECOFF.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECOFF.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECOFF_VOIP.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECOFF_VOIP.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECOFF_VT.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECOFF_VT.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECOFF_WB.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECOFF_WB.txt \
+    vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECON_IMS.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECON_IMS.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECON.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECON.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECON_VOIP.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECON_VOIP.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECON_VT.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECON_VT.txt \
@@ -105,14 +107,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_EXTRA.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_EXTRA.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_EXTRA_WB.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_EXTRA_WB.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_HAC.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_HAC.txt \
+    vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_IMS_EXTRA.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_IMS_EXTRA.txt \
+    vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_IMS.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_IMS.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_VOIP.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_VOIP.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_VT.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_VT.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_WB.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HANDSET_WB.txt \
+    vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADPHONE_IMS.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADPHONE_IMS.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADPHONE.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADPHONE.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADPHONE_VOIP.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADPHONE_VOIP.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADPHONE_VT.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADPHONE_VT.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADPHONE_WB.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADPHONE_WB.txt \
+    vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADSET_IMS.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADSET_IMS.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADSET.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADSET.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADSET_VOIP.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADSET_VOIP.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADSET_VT.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_HEADSET_VT.txt \
@@ -121,14 +127,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_LOOPBACK.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_LOOPBACK.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_EXTRA.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_EXTRA.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_EXTRA_WB.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_EXTRA_WB.txt \
+    vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_IMS_EXTRA.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_IMS_EXTRA.txt \
+    vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_IMS.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_IMS.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_VOIP.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_VOIP.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_VT.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_VT.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_WB.txt:codinatmo/etc/LVVEFS_tuning_parameters/Rx_ControlParams_SPEAKER_WB.txt \
+    vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECOFF_IMS.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECOFF_IMS.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECOFF.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECOFF.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECOFF_VOIP.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECOFF_VOIP.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECOFF_VT.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECOFF_VT.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECOFF_WB.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECOFF_WB.txt \
+    vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECON_IMS.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECON_IMS.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECON.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECON.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECON_VOIP.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECON_VOIP.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECON_VT.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_BTNRECON_VT.txt \
@@ -136,14 +146,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_EXTRA.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_EXTRA.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_EXTRA_WB.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_EXTRA_WB.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_HAC.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_HAC.txt \
+    vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_IMS_EXTRA.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_IMS_EXTRA.txt \
+    vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_IMS.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_IMS.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_VOIP.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_VOIP.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_VT.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_VT.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_WB.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HANDSET_WB.txt \
+    vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADPHONE_IMS.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADPHONE_IMS.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADPHONE.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADPHONE.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADPHONE_VOIP.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADPHONE_VOIP.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADPHONE_VT.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADPHONE_VT.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADPHONE_WB.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADPHONE_WB.txt \
+    vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADSET_IMS.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADSET_IMS.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADSET.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADSET.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADSET_VOIP.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADSET_VOIP.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADSET_VT.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_HEADSET_VT.txt \
@@ -152,6 +166,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_LOOPBACK.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_LOOPBACK.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_EXTRA.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_EXTRA.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_EXTRA_WB.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_EXTRA_WB.txt \
+    vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_IMS_EXTRA.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_IMS_EXTRA.txt \
+    vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_IMS.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_IMS.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VOIP.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VOIP.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VT.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VT.txt \
