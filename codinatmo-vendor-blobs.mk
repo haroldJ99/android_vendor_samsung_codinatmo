@@ -172,6 +172,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VOIP.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VOIP.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VT.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_VT.txt \
     vendor/samsung/codinatmo/proprietary/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_WB.txt:codinatmo/etc/LVVEFS_tuning_parameters/Tx_ControlParams_SPEAKER_WB.txt \
+    vendor/samsung/codinatmo/proprietary/etc/AT/manuf_id.cfg:codinatmo/etc/AT/manuf_id.cfg \
+    vendor/samsung/codinatmo/proprietary/etc/AT/model_id.cfg:codinatmo/etc/AT/model_id.cfg \
+    vendor/samsung/codinatmo/proprietary/etc/AT/system_id.cfg:codinatmo/etc/AT/system_id.cfg\
     vendor/samsung/codinatmo/proprietary/lib/libril.so:codinatmo/lib/libril.so \
     vendor/samsung/codinatmo/proprietary/lib/libsec-ril.so:codinatmo/lib/libsec-ril.so \
     vendor/samsung/codinatmo/proprietary/lib/libsecril-client.so:codinatmo/lib/libsecril-client.so \
